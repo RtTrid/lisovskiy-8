@@ -1,0 +1,65 @@
+.container {
+    background-color: green;
+    border: 5px solid red;
+    min-width: 640px;
+    min-height: 480px;
+    margin: 10px;
+    position: relative;
+}
+
+.yellowBlock {
+    height: 80px;
+    width: 80px;
+    background-color: #fff799;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.purpleBlock {
+    width: 100px;
+    height: 100px;
+    background: #ab347b;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.whiteBlock {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 50%;
+    left: 50%;
+    margin-right:  -50%;
+    background: white;
+    border: 5px solid red;
+    transform: translate(-50%, -50%);
+}
+
+.violetBlock {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background: #8781bd;
+    bottom: 30px;
+    left: 30px;
+}
+
+.brownBlock {
+    position: absolute;
+    height: 45px;
+    width: 45px;
+    background: #a0410d;
+    bottom: 60px;
+    left: 60px;
+}
+
+.greyBlock {
+    height: 150px;
+    width: 150px;
+    background: #959595;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
